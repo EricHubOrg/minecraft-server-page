@@ -185,3 +185,12 @@ footer {
     line-height: 1.8;
 }
 
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: static; /* Change from 'fixed' to 'static' */
+    width: 100%; /* Ensure it spans the full width */
+    margin-top: 20px; /* Add spacing above the footer */
+}
