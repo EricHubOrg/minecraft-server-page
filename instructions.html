@@ -14,7 +14,7 @@
                 <button onclick="window.location.href='index.html'">Home</button>
                 <button onclick="window.location.href='gallery.html'">Gallery</button>
                 <button onclick="window.location.href='instructions.html'">Instructions</button>
-				<button onclick="window.location.href='upcoming.html'">Upcoming</button>
+                <button onclick="window.location.href='upcoming.html'">Upcoming</button>
             </div>
         </nav>
     </header>
@@ -22,10 +22,55 @@
         <section id="instructions">
             <h2>Step-by-Step Guide to Join Eric's Minecraft Server</h2>
             <ol>
-                <li><strong>Download Minecraft:</strong> Make sure you have the latest version of Minecraft installed.</li>
-                <li><strong>Join the ZeroTier Network:</strong> Install and configure ZeroTier to connect to our private network. Contact an admin for the network ID.</li>
-                <li><strong>Server Address:</strong> Open Minecraft, go to "Multiplayer," and add our server using the IP address provided by the admin.</li>
-                <li><strong>Start Your Adventure:</strong> Connect and start exploring the amazing world we have created together!</li>
+				<li><strong>Contact the admin:</strong> The admin should give you the Zerotier network ID and the server IP. If you don't know the admin, you are probably not allowed to join the server.</li>
+                <li>
+					<strong>Install TLauncher:</strong> Download and install TLauncher, the best Minecraft launcher:
+					<a href="https://tlauncher.org/" target="_blank" rel="noopener noreferrer">https://tlauncher.org/</a>
+				</li>
+                <li>
+					<strong>Install ZeroTier:</strong> Install ZeroTier Network to be able to connect to our private network:
+					<a href="https://www.zerotier.com/download" target="_blank" rel="noopener noreferrer">https://www.zerotier.com/download</a>
+				</li>
+				<li>
+					<strong>Join ZeroTier network:</strong> 
+					Assuming the admin has provided you with the network ID, follow these steps:
+					<ul>
+						<li><strong>For Windows:</strong></li>
+						<ol>
+							<li>Open Command Prompt.</li>
+							<li>Navigate to the ZeroTier installation directory by running:
+								<code>cd "C:\Program Files (x86)\ZeroTier\One"</code>
+							</li>
+							<li>Join the network using:
+								<code>zerotier-cli join &lt;network_id&gt;</code>
+							</li>
+						</ol>
+						<li><strong>For Linux:</strong></li>
+						<ol>
+							<li>Open a terminal.</li>
+							<li>Run the following command to join the network:
+								<code>sudo zerotier-cli join &lt;network_id&gt;</code>
+							</li>
+						</ol>
+						<li><strong>For macOS:</strong></li>
+						<ol>
+							<li>Open a terminal.</li>
+							<li>Run the following command to join the network:
+								<code>zerotier-cli join &lt;network_id&gt;</code>
+							</li>
+						</ol>
+					</ul>
+				</li>		
+
+				<li><strong>Wait for the admin:</strong> The admin should accept you in the private network. Contact him for confirmation.</li>
+				<li><strong>Install version ForgeOptiFine 1.19.2:</strong> From the TLauncher interface, select the version ForgeOptiFine 1.19.2 and install it.</li>
+				<li><strong>Download the Mods:</strong> Click the button below to download the required mods folder. Extract the contents and place them into your TLauncher `mods` directory.
+					You can find it by opening TLauncher application, clicking on the folder icon on the bottom right corner, and searching for the 'mods' directory. Place there your .jar files.
+                    <br>
+                    <a href="mods.zip" class="download-button" download>Download Mods Folder</a>
+                </li>
+                <li><strong>Join the server:</strong> Launch Minecraft, go to "Multiplayer" and add the server using the IP address provided by the admin.</li>
+                <li><strong>Start Your Adventure:</strong> Connect and start exploring the amazing world we have created!</li>
             </ol>
         </section>
     </main>

@@ -1,17 +1,52 @@
 [
     {
-        "title": "Amazing New Mod 1",
-        "description": "Discover the amazing features of this mod, bringing new adventures to your world!",
-        "image": "Bliss.jpg"
+        "title": "Ad Astra",
+        "description": "Adds new planets and moons to explore with a rocket",
+        "image": "space.png"
     },
-    {
-        "title": "Awesome Feature 2",
-        "description": "This upcoming feature will redefine how you explore and build in Minecraft!",
-        "image": "Bliss.jpg"
+	{
+        "title": "Distant Horizons",
+        "description": "Increases the render distance of the game",
+        "image": "distant_horizons.png"
     },
-    {
-        "title": "Exciting Mod 3",
-        "description": "Get ready for enhanced gameplay with this exciting upcoming mod.",
-        "image": "Bliss.jpg"
-    }
+	{
+		"title": "MrCrayfish's Gun Mod",
+		"description": "Adds guns, rifles and more to the game",
+		"image": "guns.png"
+	},
+	{
+		"title": "Croptopia",
+		"description": "Adds new crops and food",
+		"image": "croptopia.png"
+	},
+	{
+		"title": "[Let's Do] Vinery",
+		"description": "Adds wine and grapes",
+		"image": "wine.png"
+	},
+	{
+		"title": "Simple Planes",
+		"description": "Planes, helicopters, planes with shooters...",
+		"image": "planes.png"
+	},
+	{
+		"title": "Ultimate Car Mod",
+		"description": "Adds cars and trucks that work with organic fuel",
+		"image": "car.png"
+	},
+	{
+		"title": "Lightman's Currency",
+		"description": "Money, ATMs and new villager trading",
+		"image": "money.png"
+	},
+	{
+		"title": "LittlePictureFrames",
+		"description": "Place your own images and videos in the game",
+		"image": "frames.png"
+	},
+	{
+		"title": "Immersive Paintings",
+		"description": "Custom and self-created paintings",
+		"image": "paintings.jpg"
+	}
 ]
