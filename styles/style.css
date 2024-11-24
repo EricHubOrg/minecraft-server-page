@@ -86,31 +86,58 @@ footer {
     width: 100%;
 }
 
+/* Gallery container */
+#gallery-container {
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%; /* Adjust container width */
+}
+
+/* Gallery items */
+.gallery-item {
+    width: 400px;
+    margin-bottom: 10px; /* Space between rows */
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05); /* Subtle zoom effect */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Ensure images fit their containers */
+.gallery-item img {
+    width: 100%; /* Scale to container */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .gallery-item {
+        width: 200px; /* Adjust smaller sizes for small screens */
+    }
+}
+
+/* Section styling */
 #gallery {
     margin-top: 40px;
     text-align: center;
 }
 
-#gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-    margin-top: 20px;
+#gallery h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
-#gallery-container img {
-    width: 200px;
-    height: 150px;
-    object-fit: cover;
-    border: 2px solid #333;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
+/* Optional for LightGallery */
+.lg-backdrop {
+    z-index: 1050 !important; /* Adjust if conflicts with other z-index */
 }
 
-#gallery-container img:hover {
-    transform: scale(1.1);
-    border-color: #0a6629;
+.lg-outer {
+    z-index: 1100 !important;
 }
 
 #instructions {
