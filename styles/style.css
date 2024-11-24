@@ -158,7 +158,7 @@ footer {
 
 #welcome {
     position: relative;
-    background-image: url('/github_images/Bliss.jpg');
+    background-image: url('../github_images/Bliss.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh; /* Full viewport height */
