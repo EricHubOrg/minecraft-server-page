@@ -194,3 +194,58 @@ footer {
     width: 100%; /* Ensure it spans the full width */
     margin-top: 20px; /* Add spacing above the footer */
 }
+
+/* Upcoming section */
+#upcoming {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#upcoming h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Upcoming grid */
+.upcoming-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+/* Upcoming card */
+.upcoming-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.upcoming-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.upcoming-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.upcoming-card h3 {
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.upcoming-card p {
+    font-size: 1rem;
+    margin: 10px;
+    color: #666;
+}
