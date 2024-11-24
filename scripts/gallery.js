@@ -19,9 +19,26 @@ async function fetchImageList() {
     }
 }
 
+// Function to wait until all images are fully loaded
+function imagesLoaded(parentNode) {
+    const imgElements = Array.from(parentNode.querySelectorAll('img'));
+    return Promise.all(
+        imgElements.map((img) => {
+            return new Promise((resolve) => {
+                if (img.complete) {
+                    resolve();
+                } else {
+                    img.onload = resolve;
+                    img.onerror = resolve; // Resolve even if an image fails to load
+                }
+            });
+        })
+    );
+}
+
 // Function to dynamically load images into the gallery
 function loadImages(images) {
-    images.forEach(img => {
+    images.forEach((img) => {
         const imgElement = document.createElement('img');
         imgElement.src = `${cloudBase}${img}`;
         imgElement.alt = `Gallery Image - ${img}`;
@@ -29,17 +46,20 @@ function loadImages(images) {
         galleryContainer.appendChild(imgElement);
     });
 
-    // Initialize Masonry after images have loaded
-    new Masonry(galleryContainer, {
-        itemSelector: '.gallery-item',
-        columnWidth: '.gallery-item',
-        percentPosition: true,
-        gutter: 10
-    });
+    // Wait for all images to load before initializing Masonry
+    imagesLoaded(galleryContainer).then(() => {
+        // Initialize Masonry
+        new Masonry(galleryContainer, {
+            itemSelector: '.gallery-item',
+            columnWidth: '.gallery-item',
+            percentPosition: true,
+            gutter: 10,
+        });
 
-    // Initialize LightGallery
-    lightGallery(galleryContainer, {
-        selector: '.gallery-item'
+        // Initialize LightGallery
+        lightGallery(galleryContainer, {
+            selector: '.gallery-item',
+        });
     });
 }
 
