@@ -1,0 +1,98 @@
+[
+    {
+        "title": "New mod: Immersive Engineering",
+        "description": "Technology mod that offers machines for automation, power generation... It works compatibly with Create.",
+        "image": "immersive.png"
+    },
+    {
+        "title": "Ultimate Car Mod",
+        "description": "Adds cars, trucks and fuel to power them. You will need to build roads!",
+        "image": "cars.png"
+    },
+	{
+		"title": "New mod: Ad-astra",
+        "description": "Allows travel with a rocket to different planets, moons and space stations.",
+        "image": "adastra.png",
+        "sublist": [
+            "The Moon, Mars, Venus, Mercury and Glacio, in two different stelar systems",
+            "4 tiers of rockets",
+            "New machines, fuel and oxygen generation"
+        ]
+	},
+	{
+		"title": "New mod: MrCrayfish's Gun Mod",
+        "description": "Adds new weapons to the game.",
+        "image": "guns.png",
+        "sublist": [
+            "Pistol, Shotgun, Rifle, Grenade Launcher, Bazooka, Mini Gun, Assault Rifle, Machine Pistol and Heavy Rifle",
+            "Guns can be customized with different attachments (scopes, silencers, etc.)",
+            "Need ammunition and can be enchanted"
+        ]
+	},
+	{
+		"title": "New mod: MrCrayfish's Furniture Mod",
+        "description": "Now you can decorate your house with new furniture.",
+        "image": "furniture.png"
+	},
+	{
+		"title": "New mod: Croptopia",
+        "description": "Adds new crops, food and cooking mechanics.",
+        "image": "crop.png"
+	},
+	{
+		"title": "New mod: Immersive Paintings",
+        "description": "Put images from the internet or your computer into the game!",
+        "image": "paint.png"
+	},
+	{
+		"title": "New mod: [Let's Do] Beachparty",
+        "description": "Brings the beach to your world with new blocks, mobs and items.",
+        "image": "beach.png",
+        "sublist": [
+            "Ice cream, cocktails, sunglasses, bikinis...",
+            "Palm trees, sea stars and sandwaves to make the beach more realistic",
+            "A radio that plays music",
+			"Create your custom Sandcastle!"
+        ]
+	},
+	{
+		"title": "New mod: Lightman's Currency",
+        "description": "Adds money and economy to the game.",
+        "image": "currency.png",
+        "sublist": [
+            "Copper, Iron, Gold, Diamond and Emerald coins",
+            "Bank accounts, ATM machines and wallets",
+            "Trading machines to sell your items",
+			"Slot machines. Yes, you can make a casino"
+        ]
+	},
+	{
+		"title": "New mod: Simple Planes",
+        "description": "Build planes and helicopters",
+        "image": "planes.png",
+        "sublist": [
+            "Small, large, cargo planes and helicopters",
+            "You can add boosters, TNT, shooters and solar panels to the vehicles",
+            "Engines can work with coal, lava, petroleum and redstone"
+        ]
+	},
+	{
+		"title": "New mod: Small Ships",
+        "description": "Build ships and recruit a crew of villagers!",
+        "image": "ship.png",
+        "sublist": [
+            "Adds variety of ships to sail the seas",
+            "Hire villagers for your crew, but also to farm, mine, fish and fight"
+        ]
+	},
+	{
+		"title": "New mod: Storage Drawers",
+        "description": "Of course you don't have to store everything in big chests!",
+        "image": "drawer.png"
+	},
+	{
+		"title": "Server upgrade: Cable Internet",
+        "description": "Instead of wifi, my server now uses cable and has a 1 Gbps connection.",
+        "image": "cable.jpg"
+	}
+]
