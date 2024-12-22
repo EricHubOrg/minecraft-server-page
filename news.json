@@ -5,7 +5,7 @@
         "image": "immersive.png"
     },
     {
-        "title": "Ultimate Car Mod",
+        "title": "New mod: Ultimate Car Mod",
         "description": "Adds cars, trucks and fuel to power them. You will need to build roads!",
         "image": "cars.png"
     },
@@ -89,6 +89,11 @@
 		"title": "New mod: Storage Drawers",
         "description": "Of course you don't have to store everything in big chests!",
         "image": "drawer.png"
+	},
+	{
+		"title": "New mod: [Let's Do] Vinery",
+        "description": "Adds wine and vineyards to the game.",
+        "image": "wine.png"
 	},
 	{
 		"title": "Server upgrade: Cable Internet",
