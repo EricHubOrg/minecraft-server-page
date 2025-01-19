@@ -42,14 +42,6 @@ function renderNewsItems(items) {
         description.textContent = item.description;
         contentDiv.appendChild(description);
 
-        // Date
-        if (item.date) {
-            const date = document.createElement('p');
-            date.textContent = `Published on: ${item.date}`;
-            date.classList.add('news-date'); // Add a specific class for styling
-            contentDiv.appendChild(date);
-        }
-
         // Sublist (if any)
         if (item.sublist && item.sublist.length > 0) {
             const sublist = document.createElement('ul');
@@ -59,6 +51,14 @@ function renderNewsItems(items) {
                 sublist.appendChild(li);
             });
             contentDiv.appendChild(sublist);
+        }
+
+		// Date
+        if (item.date) {
+            const date = document.createElement('p');
+            date.textContent = `${item.date}`;
+            date.classList.add('news-date'); // Add a specific class for styling
+            contentDiv.appendChild(date);
         }
 
         // Image container

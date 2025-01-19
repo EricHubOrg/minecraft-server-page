@@ -8,7 +8,8 @@
     {
         "title": "New mod: Ultimate Car Mod",
         "description": "Adds cars, trucks and fuel to power them. You will need to build roads!",
-        "image": "cars.png"
+        "image": "cars.png",
+		"date": "20-12-2024"
     },
 	{
 		"title": "New mod: Ad-astra",
