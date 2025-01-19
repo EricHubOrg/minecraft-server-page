@@ -2,7 +2,8 @@
     {
         "title": "New mod: Immersive Engineering",
         "description": "Technology mod that offers machines for automation, power generation... It works compatibly with Create.",
-        "image": "immersive.png"
+        "image": "immersive.png",
+		"date": "20-12-2024"
     },
     {
         "title": "New mod: Ultimate Car Mod",
@@ -17,7 +18,8 @@
             "The Moon, Mars, Venus, Mercury and Glacio, in two different stelar systems",
             "4 tiers of rockets",
             "New machines, fuel and oxygen generation"
-        ]
+        ],
+		"date": "20-12-2024"
 	},
 	{
 		"title": "New mod: MrCrayfish's Gun Mod",
@@ -27,22 +29,26 @@
             "Pistol, Shotgun, Rifle, Grenade Launcher, Bazooka, Mini Gun, Assault Rifle, Machine Pistol and Heavy Rifle",
             "Guns can be customized with different attachments (scopes, silencers, etc.)",
             "Need ammunition and can be enchanted"
-        ]
+        ],
+		"date": "20-12-2024"
 	},
 	{
 		"title": "New mod: MrCrayfish's Furniture Mod",
         "description": "Now you can decorate your house with new furniture.",
-        "image": "furniture.png"
+        "image": "furniture.png",
+		"date": "20-12-2024"
 	},
 	{
 		"title": "New mod: Croptopia",
         "description": "Adds new crops, food and cooking mechanics.",
-        "image": "crop.png"
+        "image": "crop.png",
+		"date": "20-12-2024"
 	},
 	{
 		"title": "New mod: Immersive Paintings",
         "description": "Put images from the internet or your computer into the game!",
-        "image": "paint.png"
+        "image": "paint.png",
+		"date": "20-12-2024"
 	},
 	{
 		"title": "New mod: [Let's Do] Beachparty",
@@ -53,7 +59,8 @@
             "Palm trees, sea stars and sandwaves to make the beach more realistic",
             "A radio that plays music",
 			"Create your custom Sandcastle!"
-        ]
+        ],
+		"date": "20-12-2024"
 	},
 	{
 		"title": "New mod: Lightman's Currency",
@@ -64,7 +71,8 @@
             "Bank accounts, ATM machines and wallets",
             "Trading machines to sell your items",
 			"Slot machines. Yes, you can make a casino"
-        ]
+        ],
+		"date": "20-12-2024"
 	},
 	{
 		"title": "New mod: Simple Planes",
@@ -74,7 +82,8 @@
             "Small, large, cargo planes and helicopters",
             "You can add boosters, TNT, shooters and solar panels to the vehicles",
             "Engines can work with coal, lava, petroleum and redstone"
-        ]
+        ],
+		"date": "20-12-2024"
 	},
 	{
 		"title": "New mod: Small Ships",
@@ -83,21 +92,25 @@
         "sublist": [
             "Adds variety of ships to sail the seas",
             "Hire villagers for your crew, but also to farm, mine, fish and fight"
-        ]
+        ],
+		"date": "20-12-2024"
 	},
 	{
 		"title": "New mod: Storage Drawers",
         "description": "Of course you don't have to store everything in big chests!",
-        "image": "drawer.png"
+        "image": "drawer.png",
+		"date": "20-12-2024"
 	},
 	{
 		"title": "New mod: [Let's Do] Vinery",
         "description": "Adds wine and vineyards to the game.",
-        "image": "wine.png"
+        "image": "wine.png",
+		"date": "20-12-2024"
 	},
 	{
 		"title": "Server upgrade: Cable Internet",
         "description": "Instead of wifi, my server now uses cable and has a 1 Gbps connection.",
-        "image": "cable.jpg"
+        "image": "cable.jpg",
+		"date": "15-12-2024"
 	}
 ]

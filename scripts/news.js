@@ -42,6 +42,14 @@ function renderNewsItems(items) {
         description.textContent = item.description;
         contentDiv.appendChild(description);
 
+        // Date
+        if (item.date) {
+            const date = document.createElement('p');
+            date.textContent = `Published on: ${item.date}`;
+            date.classList.add('news-date'); // Add a specific class for styling
+            contentDiv.appendChild(date);
+        }
+
         // Sublist (if any)
         if (item.sublist && item.sublist.length > 0) {
             const sublist = document.createElement('ul');
