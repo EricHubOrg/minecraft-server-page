@@ -374,3 +374,9 @@ footer {
     font-style: italic;
     text-align: right;
 }
+
+#map img {
+	border: none !important;
+	border-radius: 0 !important;  /* if you don't want rounded corners, too */
+  }
+  
