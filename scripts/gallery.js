@@ -1,8 +1,8 @@
 // Get the gallery container
 const galleryContainer = document.getElementById('gallery-container');
 
-// S3 base URL for your bucket
-const cloudBase = "https://minecraft-server-gallery.s3.amazonaws.com/";
+// R2 base URL for your bucket
+const cloudBase = "https://pub-99fe58b07618413daf5b1618f0046cec.r2.dev/gallery/";
 
 // Function to fetch the list of images from images.txt
 async function fetchImageList() {
